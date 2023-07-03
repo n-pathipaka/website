@@ -1,11 +1,16 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import reactRefresh from '@vitejs/plugin-react-refresh';
+import { defineConfig } from 'vite';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base:"/website/",
+  plugins: [reactRefresh()],
+  base: "/website/",
   build: {
     outDir: 'dist'
-  }
-})
+  },
+  resolve: {
+    alias: {
+      // Add any aliases you may have
+    },
+    extensions: ['.js', '.jsx'] // Add '.jsx' extension
+  },
+});
