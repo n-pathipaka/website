@@ -28,8 +28,6 @@ const Homepage = () => {
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
 
-	const imagePathHomepage = require('../Images/homepage.jpg');
-
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -106,7 +104,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src={imagePathHomepage}
+											src="homepage.jpg"
 											alt="about"
 											className="homepage-image"
 										/>
