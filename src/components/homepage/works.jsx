@@ -15,7 +15,7 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./samsung.png"
+								src="/website/samsung.png"
 								alt="samsung"
 								className="work-image"
 							/>

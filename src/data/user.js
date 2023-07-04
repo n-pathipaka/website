@@ -3,7 +3,7 @@ const INFO = {
 		title: "Personal Portifolio",
 		name: "Neerab P.",
 		email: "neerab007@gmail.com, nefi2237@colorado.edu",
-		logo: "../logo.png",
+		logo: "../website/logo.png",
 	},
 
 	socials: {
@@ -13,6 +13,13 @@ const INFO = {
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
+	},
+	logolinks:{
+		javascript       : "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+		python           : "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+		Rnative          :  "",
+		cpp              :  "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/cpp/cpp.png",
+		
 	},
 
 	homepage: {
@@ -38,7 +45,7 @@ const INFO = {
 			title: "Pyhton Compiler",
 			description:
 				" Compiler for user-friendly functions to draw graphics from Python to WebAssembly.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: ["python"],
 			linkText: "View Project",
 			link: "https://github.com/n-pathipaka/project",
 		},
@@ -46,7 +53,7 @@ const INFO = {
 			title: "PureNav",
 			description:
 				"User-Friendly Navigation App: Features with upcoming trip alerts, scheduling, real-time road quality, and air quality updates.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: ["javascript", "python"],
 			linkText: "View Project",
 			link: "https://github.com/n-pathipaka/PureNav",
 		},
@@ -54,7 +61,7 @@ const INFO = {
 			title: "AI Fitness Trainer",
 			description:
 				"Real-time posture correctness feedback for workout videos.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo: ["python"],
 			linkText: "View Project",
 			link: "https://github.com/n-pathipaka/AI_FITNESS_TRAINER",
 		},
@@ -63,7 +70,7 @@ const INFO = {
 			title: "Edge Computing",
 			description:
 				"MEC-based video caching with dynamic transcoding for optimized streaming",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo: ["cpp"],
 			linkText: "View Project",
 			link: "https://github.com",
 		},
@@ -72,7 +79,7 @@ const INFO = {
 			title: "Activity Recommender",
 			description:
 				"Recommendation system for Acitivites to do at a place and a time.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: ["python"],
 			linkText: "View Project",
 			link: "https://github.com",
 		},

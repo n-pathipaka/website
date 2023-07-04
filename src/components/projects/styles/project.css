@@ -7,6 +7,13 @@
 	height: 100%;
 }
 
+.icon-row {
+	display: flex;
+	justify-content: center;
+	padding-left: 1px;
+	gap: 10px;
+  }
+
 .project a {
 	text-decoration: none;
 }
