@@ -3,7 +3,7 @@ const INFO = {
 		title: "Personal Portifolio",
 		name: "Neerab P.",
 		email: "neerab007@gmail.com, nefi2237@colorado.edu",
-		logo: "../logo.png",
+		logo: "../Images/logo.png",
 	},
 
 	socials: {
@@ -24,7 +24,7 @@ const INFO = {
 	about: {
 		title: "I’m Neerab. I love training deep neural nets.",
 		description:
-			""//"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Cureently, I am in love with training deep neural nets, Wait for my articles and podcasts for sharing the information.",
+			""//"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Currently, I am in love with training deep neural nets, Wait for my articles and podcasts for sharing the information.",
 	},
 
 	articles: {

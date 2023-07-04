@@ -7,13 +7,14 @@ import "./styles/logo.css";
 
 const Logo = (props) => {
 	let { width, link } = props;
+	const imagePath = require('../../Images/logo.png');
 
 	if (link === undefined) {
 		link = true;
 	}
 
 	const imageElement = (
-		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
+		<img src={imagePath} alt="logo" className="logo" width={width} />
 	);
 
 	return (
